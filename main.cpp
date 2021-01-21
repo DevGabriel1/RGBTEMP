@@ -36,6 +36,12 @@ void loop() {
     digitalWrite(10, LOW);
     digitalWrite(9, LOW);
   }
+  if (temp < 10) {
+    digitalWrite(11, LOW);
+    digitalWrite(10, HIGH);
+    digitalWrite(11, LOW);
+  }
+  
   
   delay(3000);
 
